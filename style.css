@@ -34,10 +34,15 @@ body {
     font-weight: bolder;
 }
 
+#btn-search {
+    visibility: hidden;
+}
+
 .movie-list {    
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 30px;
+    row-gap: 10px;
     justify-content: space-around;       
 }
 
