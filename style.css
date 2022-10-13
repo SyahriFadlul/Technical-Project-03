@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;700&family=Poppins:wght@200;400&family=Roboto+Condensed&display=swap');
+* {
+    margin:0;
+    padding:0;
+}
+
+@media only screen and (max-width: 940px) {
+    .movie-list {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 30px;
+        row-gap: 15px;       
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .movie-list {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 30px;
+        row-gap: 15px;       
+    }
+}
+
+body {
+    padding: 5% 10%;
+}
+
+.kop{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.movie-list {    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    justify-content: space-around;       
+}
+
+img {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 80%;
+}
+
+.card-text {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.rating {    
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.date {
+    font-weight: 500;    
+}
