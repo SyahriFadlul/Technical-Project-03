@@ -14,7 +14,7 @@ const showMovies = (data) => {
                 <img src="${firstLink}${item.poster_path}" class="card-img-top" alt="" width="100%">
                 <div class="card-body">
                     <p class="card-text">
-                        <span class="title">${item.original_title}</span>
+                        <span class="title">${item.title}</span>
                         <span class="rating">${item.vote_average}</span>
                         <span class="date">${item.release_date}</span>
                     </p>            
